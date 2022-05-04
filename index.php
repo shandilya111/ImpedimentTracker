@@ -1,5 +1,5 @@
 <?php
- header("Access-Control-Allow-Origin: *");
+header('Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization');
 
 //The url you wish to send the POST request to
 $url = "https://api.taiga.io/api/v1/auth";
